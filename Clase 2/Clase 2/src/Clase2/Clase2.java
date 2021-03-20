@@ -111,6 +111,31 @@ public class Clase2 {
         String[] nombres={"Juan","Maria","Pedro"};
         boolean[] condiciones={true,false,true,true};
         int[][] matriz=new int[2][2];//Exactamente igual a c++
+        /*
+        Tarea: Menu en donde pueda:
+        1)ingresar valores a un arreglo de enteros y mostrarlos ordenados
+        2)ingresar nombres a un array de string y mostrarlos del ultimo al primero
+        3)Definir un array con 4 nombres (Holanda,Ortencia,Linda,Alfredo) y Mostrar el acronimo:
+        H
+        O
+        L
+        A
+        4)Ingresar 5 valores a un array1, 5 a un array2 y multiplicarlos, el resultado se debe almacenar en un array 3 y mostrarse:
+        array1[0]=2;
+        array2[0]=3;
+        array3[0]=6;//array1[0]*Array2[0]
+        5)Pedir nombre y edad almacenarlos respectivamente en sus arrays y mostrar los datos ordenados:
+        Array1[0]="Pedro"
+        Array2[0]=10
+        Array1[1]="Maria"
+        Array2[1]=20
+        Pedro
+        10
+        -----
+        Maria 
+        20
+        &)Salir
+        */
     }
     
 }
