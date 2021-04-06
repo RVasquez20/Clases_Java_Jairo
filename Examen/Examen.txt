@@ -1,0 +1,9 @@
+Realice un menu con los siguientes ejercicios:(JOptionPane)
+1)Dado un vector de enteros, comprobar el mayor, el menor y por último la media de todos.
+2)Realizar un crud de Empleados<solo nombres>, como guste con cualquier edd
+3)Realizar una calculadora basica
+4)Realice un minisupermercado donde le aparezcan las siguientes opciones:
+1)un menu con los productos
+2)pedir cuantos comprara
+3)calcular total
+4)almacenar clientes en una cola :)
