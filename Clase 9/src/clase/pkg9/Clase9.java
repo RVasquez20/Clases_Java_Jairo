@@ -6,7 +6,7 @@
 package clase.pkg9;
 
 import javax.swing.JOptionPane;
-
+import java.util.*;
 /**
  *
  * @author Rodrigo
@@ -18,6 +18,8 @@ public class Clase9 {
      */
     public static void main(String[] args) {
         Personas obj1=new Personas();
+        
+        
         int seleccion=0;
         String cambio="";
         int cambio2=0;
