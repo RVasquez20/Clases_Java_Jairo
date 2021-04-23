@@ -65,5 +65,11 @@ public class Clase11 {
         }
         return pos;
     }
+    /*
+    Tarea:Contruir un programa para una competencia de nadadores, el programa
+    debe gestionar una serie de atletas caracterizados por:
+    numero de atleta,nombre y tiempo de su carrera.
+    Al final el programa debe mostrar los datos del atleta ganador de la carrera
+    */
     
 }
