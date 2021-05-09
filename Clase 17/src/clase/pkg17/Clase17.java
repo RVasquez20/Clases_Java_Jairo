@@ -46,6 +46,22 @@ static ArrayList<Estudiante>Estudiantes=new ArrayList<>();
                 menuPrincipal();
                 break;
             }
+            case 2:{
+                ArrayList<Integer>notasgenerales=new ArrayList<>();
+                notasgenerales.add(100);
+                notasgenerales.add(100);
+                notasgenerales.add(100);
+                notasgenerales.add(100);
+                Estudiantes.add(new Estudiante("1","1",new Notas(notasgenerales),"Jose","Perez","12"));
+                Estudiantes.add(new Estudiante("1","1",new Notas(notasgenerales),"Josefa","Pereza","32"));
+                Estudiantes.add(new Estudiante("1","1",new Notas(notasgenerales),"Josefin","Pereze","123"));
+                Estudiantes.add(new Estudiante("1","1",new Notas(notasgenerales),"Josefon","Perezi","134"));
+                for (int i = 0; i < Estudiantes.size(); i++) {
+                    System.out.print((i+1)+")");Estudiantes.get(i).MostrarNombres();
+                    
+                }
+                break;
+            }
             default:{
                 System.out.println("Opcion incorrecta elija nuevamente");
                 System.out.println("");
@@ -70,5 +86,13 @@ static ArrayList<Estudiante>Estudiantes=new ArrayList<>();
         Estudiantes.add(new Estudiante(Carne,Semestre,new Notas(new ArrayList<>()),Nombre,Apellido,Edad));
         JOptionPane.showMessageDialog(null, "Agregado Exitosamente");
     }
-    
+    /**
+     * Crear el metodo de insertar notas y mostrar datos
+     * el metodo de ingreso de notas debera mostrar los nombres de los estudiantes
+     * disponibles junto con un numero identificador(i) posteriormente
+     * el usuario debe seleccionar al estudiante que desea agregar notas
+     * y el programa debera ingresar una nota al finalizar debe preguntar si desea
+     * ingresar otra nota.(JOptionPane)
+     * 
+     */
 }
